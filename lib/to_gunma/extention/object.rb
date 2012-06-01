@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 class Object
   def to_gunma
-    "gunma"
+    "#{self.class}は群馬県になりました。"
   end
 end

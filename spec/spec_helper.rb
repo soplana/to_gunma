@@ -3,5 +3,5 @@ require 'rubygems'
 require 'to_gunma'
 
 def gunma
-  "gunma"
+  "は群馬県になりました。"
 end
