@@ -1,6 +1,6 @@
 # ToGunma
 
-TODO: Write a gem description
+to_gunma
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### to_gunma
+---
+    array = [1,2,3]
+    array.to_gunma     #=> "Arrayは群馬県になりました。"
+    array.to_s         #=> "[1, 2, 3]"
+    array.include?(1)  #=> true
+    
+    array.to_gunma!    #=> "Arrayは群馬県になりました。"
+    array.to_s         #=> "Arrayは群馬県になりました。"
+    array.include?(1)  #=> "Arrayは群馬県になりました。"
 
 ## Contributing
 
